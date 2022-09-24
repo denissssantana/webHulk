@@ -12,12 +12,12 @@ body {
 .cabecalho {
     display: flex;
     justify-content: center;
-    padding: 10px;
+    padding: 0px;
     
 }
 
 .cabecalhoImg {
-    height: 200px ;
+    height: 150px ;
 
 }
 
@@ -30,8 +30,8 @@ main {
 }
 
 .box {
-    height: 500px ;
-    width: 850px;
+    height: 420px ;
+    width: 650px;
     display: flex;
     justify-content:space-between;
     align-items:center;
@@ -52,12 +52,12 @@ main {
     justify-content: center;
     color: #30CF16;
     font-family: 'Roboto';
-    font-size: 70px;
+    font-size: 50px;
     
 }
 
 .caixaText {
-    padding: 10px 0px 20px 0px; 
+    padding: 10px 0px 10px 0px; 
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -66,8 +66,8 @@ main {
 }
 
 .caixaText > input{
-    width: 650px;
-    height: 7px;
+    width: 500px;
+    height: 5px;
     border: none;
     border-radius: 30px;
     padding: 20px 0px 20px 0px;
@@ -87,7 +87,7 @@ main {
 }
 
 .boxbotao {   
-    padding: 20px 0px 30px 0px; 
+    padding: 20px 0px 0px 0px; 
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -96,7 +96,7 @@ main {
 }
 
 .boxbotao > input { 
-    width: 300px;
+    width: 220px;
     height: 75px;
     background: #30CF16;
     border-radius: 30px;
@@ -104,7 +104,7 @@ main {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 600;
-    font-size: 50px;
+    font-size: 40px;
     line-height: 61px;
     color: #000000;
     box-shadow: 0px 0px 40px #31ff16;
@@ -143,7 +143,7 @@ a {
     flex-direction: column;
     justify-content: center;
     height: 5px;
-    padding: 30px;
+    padding: 20px;
 
 }
 
@@ -162,7 +162,7 @@ a {
 }
 
 .rodapeImg{
-    height: 350px ;
+    height: 290px ;
     
 
 }
