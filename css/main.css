@@ -1,6 +1,169 @@
-body{
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200&family=Roboto:wght@300;400&display=swap');
+
+body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    
+}
+
+.cabecalhoImg {
+    height: 200px ;
+
+}
+
+main {
+    /*margin: 0;*/
+    display: flex;
+    justify-content: center;
+    padding: 30px; 
+
+}
+
+.box {
+    height: 500px ;
+    width: 850px;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-direction: column;
+    box-shadow: 0px 0px 40px #31ff16;
+    background: #000000;
+    border: 2px solid #30CF16;
+    border-radius: 20px;
+
+}
+
+.boxlogin > h1 {
+    margin: 0;
+    padding: 10px 0px 10px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    color: #30CF16;
+    font-family: 'Roboto';
+    font-size: 70px;
+    
+}
+
+.caixaText {
+    padding: 10px 0px 20px 0px; 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+   
+}
+
+.caixaText > input{
+    width: 650px;
+    height: 7px;
+    border: none;
+    border-radius: 30px;
+    padding: 20px 0px 20px 0px;
+    background: #D9D9D9;
+    font-size: 20px;
+    outline: none;
+
+}
+
+.caixaText > input::placeholder {
+    color: #125807;
+    font-family: 'Roboto';
+    font-style: italic;
+    font-size: 25px;
+    padding: 0px 0px 0px 30px;  
+    
+}
+
+.boxbotao {   
+    padding: 20px 0px 30px 0px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    
+}
+
+.boxbotao > input { 
+    width: 300px;
+    height: 75px;
+    background: #30CF16;
+    border-radius: 30px;
+    border: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 61px;
+    color: #000000;
+    box-shadow: 0px 0px 40px #31ff16;
+
+}
+
+.boxbotao > input:hover { 
+    background: #56d143;
+
+}    
+
+.link1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 5px;
+    padding: 30px 0px 0px 0px; 
+
+}
+
+.link1 {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-size: 20px;
+    color: #30CF16;
+
+}
+
+a {
+    text-decoration:none;
+    color: inherit;
+}
+
+.link2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 5px;
+    padding: 30px;
+
+}
+
+.link2 {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-size: 20px;
+    color: #30CF16;
+
+}
+
+.rodape{
+    display: flex;
+    justify-content: center;
+
+}
+
+.rodapeImg{
+    height: 350px ;
+    
+
 }
 
